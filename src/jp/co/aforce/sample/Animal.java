@@ -83,22 +83,40 @@ package jp.co.aforce.sample;
 //    }
 //}
 //
+//
+//class Animal{
+//	private String name;
+//	private int age;
+//	
+//	void setName(String name) {
+//		
+//	}
+//}
+//
+//
+//
+//
 
-class Animal{
-	private String name;
-	private int age;
-	
-	void setName(String name) {
-		
+
+class Animal {					
+    void speak() {					
+        System.out.println("Some sound");					
+    }					
+}					
+					
+class Dog extends Animal {
+	@Override
+    void speak() {					
+        System.out.println("わんわん");					
+    }					
+}					
+					
+class Cat extends Animal{
+	@Override
+	void speak(){
+		System.out.println("にゃー");
 	}
 }
-
-
-
-
-
-
-
 
 
 
