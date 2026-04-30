@@ -1,4 +1,4 @@
-package jp.co.aforce;
+package jp.co.aforce.practice;
 
 import java.util.ArrayList;
 
@@ -45,10 +45,6 @@ public class PracticeTest5 {
 		ArrayList<String> submitters = new ArrayList<>();					
 		submitters.add("斎藤");					
 		submitters.add("高橋");					
-		
-		
-		
-		
 		
 	}
 }

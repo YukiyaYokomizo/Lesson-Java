@@ -1,4 +1,4 @@
-package jp.co.aforce;
+package jp.co.aforce.practice;
 
 public class PracticeTest1 {
 	public static void main(String[] args) {

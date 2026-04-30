@@ -1,4 +1,4 @@
-package jp.co.aforce;
+package jp.co.aforce.practice;
 
 import java.util.ArrayList;
 import java.util.List;
